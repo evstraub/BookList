@@ -1,2 +1,0 @@
-# BookList
-js book library
