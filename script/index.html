@@ -16,9 +16,9 @@
         <h1>Current Books In Library</h1>
       </div>
       <div class="form">
-        <button class="add-book-button">Add New Book</button>
-        <div id="add-book-form">
-          <form id="add-book">
+        <button class="button open-button">Add New Book</button>
+        <dialog class="modal" id="modal">
+           <form class='form2' id='form2' method="dialog">
             <label for="Title">Title:</label>
             <input type="text" id="Title" name="Title" required />
             <label for="Author">Author:</label>
@@ -35,9 +35,13 @@
             </button>
             <button type="reset" class="reset-button">Reset Form</button>
           </form>
-        </div>
+          <button class="button close-button">close</button>
+        </dialog>
       </div>
-      <div class="books"><div id="info"></div></div>
+        <div class="books"><div id="info"></div></div>
+      </div>
+
+      
     </div>
 
     <script src="main.js"></script>
